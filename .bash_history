@@ -578,3 +578,87 @@ dir
 sudo vim hw02_style.css
 service nginx restart
 exit
+dir
+rm DisposableDroidBB.ttf
+dir
+cp abel-regular.ttf www/hw02
+sudo cp abel-regular.ttf www/hw02
+cd www/hw02
+dir
+sudo vim hw02_style.css
+service nginx restart
+sudo vim hw02_style.css
+service nginx restart
+sudo vim hw02_style.css
+service nginx restart
+dir
+sudo vim disposabledroidbb.ttf
+sudo rm disposabledroidbb.ttf
+dir
+cd ..
+dir
+rm hw02_style.css
+rm hw02_calc.js
+rm calc.html
+rm abel-regular.ttf
+dir
+git init
+dir
+git ..
+dir
+cd ..
+dir
+cd byang
+git commit -m hw02
+git config --global antarticuno
+git add .
+dir
+git commit -m "hw02"
+git config --global user.email "yang.b@husky.neu.edu"
+git add .
+git commit -m "hw02"
+git status
+git remote add origin https://github.com/antarticuno/webdev.git
+git push -u origin master
+git status
+dir
+cd /etc/nginx
+dir
+cd sites-available
+dir
+git branch
+git init
+sudo git init
+git add .
+sudo git add .
+git status
+git branch
+git branch hw02
+git commit -m "hw02 configs"
+sudo git commit -m "hw02 configs"
+git remote
+sudo git remote
+sudo git remote add configs https://github.com/antarticuno/nginx_config
+sudo git remote add configs https://github.com/antarticuno/nginx_config.git
+sudo git remote set-url configs https://github.com/antarticuno/nginx_config.git
+sudo git push -u configs master
+git pull
+sudo git pull
+git pull configs master
+sudo git pull configs master
+git status
+sudo git push -u configs master
+cd ..
+cd /www/hw02
+dir
+service nginx restart
+dir
+cd ..
+dir
+cd main
+dir
+cd ..
+cd hw02
+dir
+sudo vim hw02_style.css
+exit
