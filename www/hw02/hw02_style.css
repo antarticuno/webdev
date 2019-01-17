@@ -1,0 +1,43 @@
+@font-face {
+	font-family: abelRegular;
+	src: url('abel-regular.ttf') format('truetype');
+}
+
+body {
+	font-family: abelRegular;
+	font-size: 1.2em;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+p {
+	display: inline-block;
+	width: 40px;
+	background-color: #AAA;
+	text-align: center;
+	padding: 10px;
+	margin: 5px;
+	border-radius: 10px;
+}
+
+p:active {
+	background-color: #999;
+}
+
+#container {
+	background-color: #333;
+	padding: 10px;
+	width: 300px;
+	border-radius: 10px;
+}
+
+#display, #display:active {
+	display: block;
+	text-align: right;
+	background-color: #DDD;
+	width: 270px;
+	margin: 5px 5px 0px 5px;
+}
+
