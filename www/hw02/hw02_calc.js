@@ -48,10 +48,8 @@
 	}
 
 	function recordOperation(op) {
+		evaluateExpression();
 		operation = op;
-		decimal = 0;
-		currentTotal += input;
-		input = 0;
 	}	
 
 	function includeDecimal() {

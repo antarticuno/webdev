@@ -662,3 +662,16 @@ cd hw02
 dir
 sudo vim hw02_style.css
 exit
+cd www/hw02
+dir
+sudo vim calc.html
+sudo vim animal.html
+service nginx restart
+dir
+cd ..
+dir
+git add .
+git status
+git commit -m 'hw02 validated'
+git push -u origin
+exit
