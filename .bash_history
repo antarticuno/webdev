@@ -675,3 +675,13 @@ git status
 git commit -m 'hw02 validated'
 git push -u origin
 exit
+cd www/hw02
+dir
+sudo vim hw02_calc.js
+service nginx restart
+cd ..
+git add .
+git status
+git commit -m "hw02 update per operation"
+git push -u origin
+exit
