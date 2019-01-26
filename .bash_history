@@ -1,221 +1,3 @@
-sudo su -
-ssh root@freezer
-ssh root@216.155.152.130
-cd /etc/ssh/sshd_config
-ssh root@freezer
-cd /etc/nginx/sites-enabled
-vim default
-sudo vi /etc/ssh/sshd_config
-sudo vi -r /etc/ssh/sshd_config
-exit
-service ssh restart
-ssh root@freezer
-exist
-exit
-sudo vi /etc/ssh/sshd_config
-service ssh restart
-ssh root@freezer
-exit
-vi /etc/ssh/sshd_config
-sudo vi /etc/ssh/sshd_config
-exit
-service ssh restart
-exit
-sudo vim /home/byang/www/main/index.html
-cd /home/byang/www/main/
-vim /home/byang/www/main/
-cd /home/byang/www/main/
-vim /home/byang/www/main/
-vim /home/byang/www/main/index.html
-exit
-sudo mkdir /home/byang/www/main
-sudo mkdir /home/byang/www/main/
-sudo mkdir -p home/byang/www/main/
-exit
-dir
-cd home/byang/www/main
-cd ./
-cd ..
-cd..
-cd ..
-vim home/byang/www/main
-exit
-cd home/byang/www/main
-path
-pwd
-cd ..
-pwd
-dir
-del home
-rm -r home
-sudo rm -rf home
-dir
-pwd
-sudo mkdir -p  /www/main
-dir
-sudo mkdir -p /www/main/
-dir
-mkdir -p /www/main/
-pwd
-dir
-sudo mkdir -p www/main/
-dir
-exit
-pwd
-dir
-sudo touch /www/main/index.html
-sudo vim /www/main/index.html
-vim /www/main/index.html
-vim /etc/nginx/sites-enabled/default
-cd /home/byang/www/main
-dir
-touch index.html
-sudo rm index.html
-vim index.html
-sudo vim index.html
-dir
-service nginx restart
-dir
-cd ..
-cd..
-cd ..
-vim /etc/nginx/sites-enabled/default
-vim /home/byang/www/main/index.html
-sudo vim /home/byang/www/main/index.html
-exit
-ssh root@www.antarticuno.com
-vim /home/byang/www/main/index.html
-sudo vim /home/byang/www/main/index.html
-sudo vi /home/byang/www/main/index.html
-cd /etc/nginx
-dir
-cd sites-available
-dir
-sudo vim default
-exit
-dir
-cd /etc/nginx
-dir
-cd sites-enabled
-dir
-cd ..
-cd /etc/ssh/sshd_config
-cd /etc/
-dir
-cd ssh
-dir
-sudo vim sshd_config
-exit
-cd www/hw01
-cd www
-dir
-cd main
-dir
-cd ..
-dir
-mkdir www/hw01
-sudo mkdir www/hw01
-cd www
-dir
-cd hw01
-dir
-sudo vim index.html
-dir
-exit
-sudo vim etc/ssh/sshd_config
-cd etc/ssh/
-dir
-cd ..
-dir
-cd etc/ssh/
-dir
-vim ssh_config
-sudo vim sshd_config
-exit
-dir
-cd /etc/nginx
-dir
-sudo vim sites-available
-dir
-cd sites-available
-dir
-sudo vim hw01
-sudo vim default
-cd /www/main
-dir
-cd ..
-dir
-cd hw01
-dir
-sudo vim index.html
-cd ..
-dir
-cd main
-dir
-sudo vim index.html
-exit
-cd /etc/nginx
-dir
-cd sites-available
-dir
-sudo vim default
-service nginx restart
-exit
-cd etc/nginx/sites-available
-cd /etc/nginx/sites-available
-dir
-sudo vim hw01
-service nginx restart
-cd /www
-dir
-cd hw01
-dir
-sudo vim index.html
-exit
-cd www/main
-sudo vim index.html
-service nginx restart
-exit
-cd /etc/nginx
-cd sites-available
-sudo vim default
-sudo vim hw01
-sudo vim default
-sudo vim hw01
-cd /www
-dir
-cd hw01
-dir
-sudo vim index.html
-cd ..
-cd main
-dir
-sudo vim index.html
-service nginx restart
-cd ..
-cd hw01
-pwd
-pwd -f
-pwd help
-help pwd
-pwd -P
-exit
-cd www/main
-sudo vim index.html
-service nginx restart
-exit
-cd www
-dir
-cd main
-dir
-cd ..
-cd hw01
-dir
-sudo vim index.html
-dir
-sudo vim index.html
-service nginx restart
-exit
 sudo vim /etc/ssh/sshd_config
 service ssh restart
 cd www/main
@@ -684,4 +466,35 @@ git add .
 git status
 git commit -m "hw02 update per operation"
 git push -u origin
+exit
+dir
+grep TODO
+git branch
+git status
+git checkout origin
+git checkout as origin
+git remote
+git revert
+dir
+git revert --quit
+dir
+cd www
+dir
+cd hw01
+cd ..
+git checkout origin/master
+git checkout master
+git status
+git commit -a
+git checkout master
+git checkout -f master
+dir
+cd www
+dir
+git branch
+cd ..
+dir
+git branch
+git branch -d dev
+git branch
 exit
